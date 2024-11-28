@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        body 
+        {
+         background-color:antiquewhite ;
+        }
+        .main
+        {
+          border: 2px solid black;
+          height: 580px;
+          width: 380px;
+          border-radius: 30px;
+          margin:0px 0px 40px 40px;
+          background-color: black;
+          align-items: center;
+          margin: auto;
+        }
+        .d1
+        {
+            border: 2px solid aquamarine;
+            height: 50%;
+            width: 380px;
+            border-radius: 30px;
+            text-align: center;
+            align-content: center;
+
+        }
+
+        .d2 {
+            border: 2px solid ;
+            display: grid;
+            height: 50%;
+            border-radius: 10px; 
+            background-color:black ;
+            grid-template-columns:repeat(4,1fr) ;
+
+        }
+        .d2 div
+        {
+          border: 1px solid olive;
+          height:50px;
+          width: 80px;
+          border-radius: 90px;
+          text-align: center;
+          align-content: center;
+          background-color: aquamarine;
+          gap: 10px;
+        }
+        .d2 div:hover {
+         background-color: rgb(34, 186, 216);
+         font-size: 50px;
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div style="color: white;" class="d1"><h1>1500+200=1700</h1></div>
+    <div class="d2">
+        <div id="1">AC</div>
+        <div id="2">+/-</div>
+        <div id="3">%</div>
+        <div id="4" style="color: brown;">/</div>
+        <div id="5">7</div>
+        <div id="6">8</div>
+        <div id="7">9</div>
+        <div id="8" style="color: brown;">x</div>
+        <div id="9">4</div>
+        <div id="10">5</div>
+        <div id="11">6</div>
+        <div id="12" style="color: brown;">-</div>
+        <div id="13">1</div>
+        <div id="14">2</div>
+        <div id="15">3</div>
+        <div id="16" style="color: brown;">+</div>
+        <div id="17">_</div>
+        <div id="18">0</div>
+        <div id="19">.</div>
+        <div id="20" style="color: brown;">=</div>
+    </div>
+</div>
+</body>
+</html>
